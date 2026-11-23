@@ -1,0 +1,229 @@
+   :root {
+      --primary-blue: #0b3d91;
+      --accent: #173f66;
+      --muted: #6e7780;
+    }
+    .navbar {
+      background: linear-gradient(90deg, var(--primary-blue), var(--accent));
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 12px 0;
+    }
+ 
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      white-space: nowrap;
+    }
+ 
+    .navbar-brand:hover {
+      color: #fff;
+    }
+ 
+    .navbar-brand img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+ 
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+ 
+    .navbar-toggler:focus {
+      box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.25);
+    }
+ 
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
+ 
+    .nav-link {
+      color: rgba(255, 255, 255, 0.9) !important;
+      font-weight: 500;
+    }
+ 
+    .nav-link:hover {
+      color: #cbe1ff !important;
+    }
+ 
+    .dropdown-menu {
+      background-color: #173f66;
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+ 
+    .dropdown-item {
+      color: #e9eef6;
+    }
+ 
+    .dropdown-item:hover {
+      background-color: #0b3d91;
+      color: #fff;
+    }
+    /* Tablets and mobile phones */
+    @media (max-width: 991.98px) {
+      .navbar-collapse {
+        padding: 15px 0 5px;
+      }
+ 
+      .navbar-nav {
+        margin-bottom: 15px;
+      }
+ 
+      .navbar .d-flex {
+        width: 100%;
+      }
+ 
+      .navbar .form-control {
+        flex: 1;
+      }
+ 
+      .navbar .btn {
+        flex-shrink: 0;
+      }
+    }
+ 
+    @media (max-width: 767.98px) {
+      .container2 {
+        padding: 24px 0 10px;
+      }
+ 
+      .article-title {
+        margin-bottom: 20px;
+      }
+ 
+      .article-row {
+        row-gap: 10px;
+      }
+ 
+      .article-img {
+        aspect-ratio: 16 / 10;
+      }
+ 
+      .article-text h2 {
+        margin-top: 5px;
+      }
+ 
+      .article-text p {
+        line-height: 1.7;
+      }
+ 
+      .footer-green {
+        padding-top: 30px;
+      }
+ 
+      .footer-green .row > div {
+        margin-bottom: 25px !important;
+      }
+    }
+ 
+    @media (max-width: 480px) {
+      .navbar-brand {
+        font-size: 1rem;
+      }
+ 
+      .navbar-brand img {
+        width: 34px;
+        height: 34px;
+      }
+ 
+      .article-img {
+        aspect-ratio: 4 / 3;
+      }
+ 
+      .footer-logo {
+        font-size: 1.6rem;
+      }
+    }
+    .payment-sidebar {
+    background-color: #000000;
+    padding: 0 !important;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    min-height: 100%;
+    }
+ 
+    .payment-sidebar .layout-constrained {
+    width: 100%;
+    max-width: none;
+    display: flex;
+    }
+ 
+    .payment-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+    }
+    .footer-green {
+      background: #0c243f;
+      padding: 40px 0 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+ 
+    .footer-logo {
+      font-size: 1.8rem;
+      font-weight: 800;
+      line-height: 1.1;
+      color: #fff;
+    }
+ 
+    .footer-header {
+      display: inline-block;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+ 
+    .footer-nav li {
+      margin-bottom: 12px;
+      overflow-wrap: anywhere;
+      color: #cbd9eb;
+    }
+ 
+    .footer-nav a,
+    .social-box {
+      color: #cbd9eb;
+      text-decoration: none;
+    }
+ 
+    .footer-nav a:hover,
+    .social-box:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+ 
+    .contact-icon {
+      color: #a9c6ff;
+    }
+ 
+    .social-box {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 8px;
+      font-size: 1.2rem;
+    }
+ 
+    .copyright-bar {
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding-top: 20px;
+      margin-top: 10px;
+      color: #cbd9eb;
+    }
+    main {
+      background-color: #173f66;
+      padding: 30px 0 20px;
+    }
